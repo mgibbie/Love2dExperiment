@@ -1,0 +1,10 @@
+-- Pokemon data for jigglypuff
+return {
+    num = 39,
+        name = "Jigglypuff",
+        types = {"Normal", "Fairy"},
+        baseStats = { hp = 115, atk = 45, def = 20, spa = 45, spd = 25, spe = 20 },
+        abilities = {"Cute Charm", "Competitive", "Friend Guard"}
+,
+    learnset = {"alluringvoice", "allyswitch", "amnesia", "attract", "batonpass", "bide", "blizzard", "bodypress", "bodyslam", "bounce", "brickbreak", "bubblebeam", "calmmind", "captivate", "chargebeam", "charm", "chillingwater", "confide", "copycat", "counter", "covet", "curse", "darkpulse", "dazzlinggleam", "defensecurl", "detect", "dig", "disable", "disarmingvoice", "doubleedge", "doubleslap", "doubleteam", "drainingkiss", "drainpunch", "dreameater", "dynamicpunch", "echoedvoice", "encore", "endeavor", "endure", "energyball", "facade", "faketears", "fireblast", "firepunch", "flamethrower", "flash", "fling", "focuspunch", "frustration", "grassknot", "gravity", "gyroball", "headbutt", "healbell", "helpinghand", "hiddenpower", "hypervoice", "icebeam", "icepunch", "icespinner", "icywind", "incinerate", "knockoff", "lastresort", "lightscreen", "magicalleaf", "magiccoat", "megakick", "megapunch", "metronome", "mimic", "mistyexplosion", "mistyterrain", "mudslap", "nastyplot", "naturalgift", "nightmare", "painsplit", "playnice", "playrough", "pound", "poweruppunch", "protect", "psychic", "psychicnoise", "psychup", "psyshock", "psywave", "rage", "raindance", "recycle", "reflect", "rest", "retaliate", "return", "roleplay", "rollout", "round", "safeguard", "sandstorm", "screech", "secretpower", "seismictoss", "selfdestruct", "shadowball", "shockwave", "sing", "skillswap", "skullbash", "sleeptalk", "snatch", "snore", "solarbeam", "spitup", "stealthrock", "steelroller", "stockpile", "storedpower", "strength", "submission", "substitute", "sunnyday", "swagger", "swallow", "sweetkiss", "swift", "takedown", "taunt", "telekinesis", "teleport", "terablast", "thief", "thunder", "thunderbolt", "thunderpunch", "thunderwave", "toxic", "trailblaze", "triattack", "uproar", "wakeupslap", "watergun", "waterpulse", "wildcharge", "workup", "zapcannon", "zenheadbutt", "encounters"}
+}

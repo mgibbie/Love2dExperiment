@@ -1,0 +1,26 @@
+# Love2D
+*.love
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Large binary files (if needed)
+# *.png
+# *.ogg
+
+# Nested repo folder (shouldn't exist)
+love2d-experiment-repo/

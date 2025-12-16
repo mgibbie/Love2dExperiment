@@ -1,0 +1,10 @@
+-- Pokemon data for dragonite
+return {
+    num = 149,
+        name = "Dragonite",
+        types = {"Dragon", "Flying"},
+        baseStats = { hp = 91, atk = 134, def = 95, spa = 100, spd = 100, spe = 80 },
+        abilities = {"Inner Focus", "Multiscale"}
+,
+    learnset = {"aerialace", "agility", "aircutter", "airslash", "aquajet", "aquatail", "attract", "barrier", "bide", "bind", "blizzard", "bodypress", "bodyslam", "breakingswipe", "brickbreak", "brutalswing", "bubblebeam", "bulldoze", "captivate", "chillingwater", "confide", "curse", "cut", "defog", "detect", "dive", "doubleedge", "doubleteam", "dracometeor", "dragonbreath", "dragoncheer", "dragonclaw", "dragondance", "dragonpulse", "dragonrage", "dragonrush", "dragontail", "dualwingbeat", "dynamicpunch", "earthquake", "encore", "endure", "extremespeed", "facade", "fireblast", "firepunch", "firespin", "flamethrower", "fling", "fly", "focusblast", "focuspunch", "frustration", "furycutter", "gigaimpact", "hail", "haze", "headbutt", "healbell", "heatwave", "helpinghand", "hiddenpower", "honeclaws", "horndrill", "hurricane", "hydropump", "hyperbeam", "icebeam", "icepunch", "icespinner", "icywind", "incinerate", "ironhead", "irontail", "leer", "lightscreen", "lowkick", "megakick", "megapunch", "metronome", "mimic", "mist", "mudslap", "naturalgift", "ominouswind", "outrage", "poweruppunch", "protect", "rage", "raindance", "razorwind", "reflect", "rest", "return", "roar", "rockslide", "rocksmash", "rocktomb", "roost", "round", "safeguard", "sandstorm", "scaleshot", "scaryface", "secretpower", "shockwave", "skullbash", "skydrop", "slam", "sleeptalk", "snore", "snowscape", "steelwing", "stompingtantrum", "stoneedge", "strength", "substitute", "sunnyday", "superpower", "surf", "swagger", "swift", "tailwind", "takedown", "terablast", "thunder", "thunderbolt", "thunderpunch", "thunderwave", "toxic", "twister", "waterfall", "watergun", "waterpulse", "weatherball", "whirlpool", "wingattack", "wrap", "zapcannon", "eventData", "encounters"}
+}

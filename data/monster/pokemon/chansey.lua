@@ -1,0 +1,10 @@
+-- Pokemon data for chansey
+return {
+    num = 113,
+        name = "Chansey",
+        types = {"Normal"},
+        baseStats = { hp = 250, atk = 5, def = 5, spa = 35, spd = 105, spe = 50 },
+        abilities = {"Natural Cure", "Serene Grace", "Healer"}
+,
+    learnset = {"allyswitch", "aromatherapy", "attract", "bestow", "bide", "blizzard", "bodyslam", "brickbreak", "bubblebeam", "bulldoze", "calmmind", "captivate", "celebrate", "chargebeam", "charm", "chillingwater", "confide", "copycat", "counter", "covet", "curse", "dazzlinggleam", "defensecurl", "disarmingvoice", "doubleedge", "doubleslap", "doubleteam", "drainpunch", "dreameater", "dynamicpunch", "earthquake", "echoedvoice", "eggbomb", "electricterrain", "endeavor", "endure", "facade", "fireblast", "firepunch", "flamethrower", "flash", "fling", "focusblast", "focuspunch", "frustration", "gigaimpact", "grassknot", "gravity", "growl", "hail", "headbutt", "healbell", "healingwish", "healpulse", "helpinghand", "hiddenpower", "hyperbeam", "hypervoice", "icebeam", "icepunch", "icywind", "incinerate", "irontail", "laserfocus", "lastresort", "lifedew", "lightscreen", "megakick", "megapunch", "metronome", "mimic", "minimize", "mudbomb", "mudslap", "naturalgift", "pound", "poweruppunch", "present", "protect", "psychic", "psychup", "psywave", "rage", "raindance", "recycle", "reflect", "refresh", "rest", "retaliate", "return", "rockclimb", "rockslide", "rocksmash", "rocktomb", "rollout", "round", "safeguard", "sandstorm", "secretpower", "seismictoss", "shadowball", "shockwave", "sing", "skillswap", "skullbash", "sleeptalk", "snatch", "snore", "snowscape", "softboiled", "solarbeam", "stealthrock", "stompingtantrum", "storedpower", "strength", "submission", "substitute", "sunnyday", "swagger", "sweetkiss", "sweetscent", "swift", "tailwhip", "takedown", "telekinesis", "teleport", "terablast", "thief", "thunder", "thunderbolt", "thunderpunch", "thunderwave", "toxic", "trailblaze", "triattack", "uproar", "watergun", "waterpulse", "wildcharge", "wish", "workup", "zapcannon", "zenheadbutt", "eventData", "encounters"}
+}

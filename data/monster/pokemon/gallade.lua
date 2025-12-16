@@ -1,0 +1,10 @@
+-- Pokemon data for gallade
+return {
+    num = 475,
+        name = "Gallade",
+        types = {"Psychic", "Fighting"},
+        baseStats = { hp = 68, atk = 125, def = 65, spa = 65, spd = 115, spe = 80 },
+        abilities = {"Steadfast", "Sharpness", "Justified"}
+,
+    learnset = {"aerialace", "agility", "airslash", "alluringvoice", "allyswitch", "aquacutter", "attract", "aurasphere", "bodyslam", "brickbreak", "bulkup", "bulldoze", "calmmind", "captivate", "chargebeam", "charm", "closecombat", "coaching", "confide", "confuseray", "confusion", "cut", "dazzlinggleam", "disarmingvoice", "doubleteam", "drainingkiss", "drainpunch", "dreameater", "dualchop", "earthquake", "echoedvoice", "encore", "endure", "energyball", "expandingforce", "facade", "falseswipe", "feint", "firepunch", "flash", "fling", "focusblast", "focuspunch", "frustration", "furycutter", "futuresight", "gigaimpact", "grassknot", "growl", "headbutt", "healpulse", "helpinghand", "hex", "hiddenpower", "hyperbeam", "hypervoice", "hypnosis", "icepunch", "icywind", "imprison", "knockoff", "laserfocus", "leafblade", "leer", "lifedew", "lightscreen", "lowkick", "lowsweep", "magicalleaf", "magiccoat", "magicroom", "megakick", "megapunch", "metronome", "mistyterrain", "mudslap", "naturalgift", "nightshade", "nightslash", "painsplit", "poisonjab", "poweruppunch", "protect", "psybeam", "psychic", "psychicterrain", "psychocut", "psychup", "psyshock", "quickguard", "raindance", "recycle", "reflect", "rest", "retaliate", "return", "revenge", "reversal", "rockslide", "rocksmash", "rocktomb", "round", "sacredsword", "safeguard", "secretpower", "shadowball", "shadowclaw", "shockwave", "signalbeam", "skillswap", "slash", "sleeptalk", "snatch", "snore", "solarblade", "stoneedge", "storedpower", "strength", "substitute", "sunnyday", "swagger", "swift", "swordsdance", "takedown", "taunt", "telekinesis", "teleport", "terablast", "thief", "throatchop", "thunderbolt", "thunderpunch", "thunderwave", "torment", "toxic", "trick", "trickroom", "tripleaxel", "upperhand", "vacuumwave", "wideguard", "willowisp", "wonderroom", "workup", "xscissor", "zenheadbutt"}
+}
