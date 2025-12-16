@@ -841,5 +841,9 @@ return {
     "psychicnoise",
     "upperhand",
     "malignantchain",
-    "nihillight"
+    "nihillight",
+    "grudge",
+    "protect",
+    "snatch",
+    "wideguard"
 }

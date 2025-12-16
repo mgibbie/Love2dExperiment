@@ -3,7 +3,7 @@
 
 local pokedex = require('data.monster.pokedex')
 local moves = require('data.monster.moves')
-local learnsets = require('data.monster.learnsets')
+local abilityRegistry = require('data.monster.abilityRegistry')
 
 local builder = {}
 
@@ -53,7 +53,8 @@ end
 
 -- Get 4 random valid moves for a Pokemon
 function builder.randomMoves(pokemonId)
-    local validMoves = learnsets.getMovesFor(pokemonId)
+    local species = pokedex.pokemon[pokemonId]
+    local validMoves = species and species.learnset or {}
     
     -- Filter to moves that exist in our moves data
     local available = {}
@@ -107,9 +108,10 @@ end
 function builder.randomAbility(pokemonId)
     local species = pokedex.pokemon[pokemonId]
     if not species or not species.abilities or #species.abilities == 0 then
-        return "No Ability"
+        return abilityRegistry.get("noability").id -- Use registry for fallback
     end
-    return species.abilities[math.random(1, #species.abilities)]
+    local chosenAbilityId = species.abilities[math.random(1, #species.abilities)]
+    return abilityRegistry.get(chosenAbilityId).id -- Use registry for lookup
 end
 
 -- Build a complete Pokemon instance
